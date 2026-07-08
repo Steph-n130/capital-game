@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Users/Stephan/Desktop/Pratique"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../PROJET SITE"
+		},
+		{
+			"path": "../Users/Stephan/Desktop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pratique"
+	}
+}

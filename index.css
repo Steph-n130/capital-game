@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.grand{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titre{
+    width: 90%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.473);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.titre img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    transition: 0.5s;
+}
+.titre img:hover{
+    transform: scale(1.1);
+}
+
+.autre{
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.autre div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.capitale:hover{
+    transform: scale(1.1);
+}
+.capitale{
+    background:linear-gradient(45deg,#ec2626,#fa26ef);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+     font-weight: bold;
+}
+.one{
+    padding: 10px;
+    color: black;
+    padding-left: 50px;
+}
+ /* h2{
+    padding: 40px;
+} */
+.pays{
+    background:linear-gradient(50deg,#263aec,#20e3fd);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pays:hover{
+  transform: scale(1.1);
+}
+
+a{
+    color: black;
+}
